@@ -1,0 +1,8 @@
+{
+  "name": "Smart Pantry",
+  "description": "Smart Pantry & Food Waste Reducer: track inventory, scan receipts, get expiry notifications, and generate zero-waste recipes.",
+  "requestFramePermissions": [
+    "android.permission.CAMERA"
+  ],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

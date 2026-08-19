@@ -1,0 +1,28 @@
+1. Android Mobile Application (Frontend)
+Language: Kotlin (Modern, type-safe development)
+UI Toolkit: Jetpack Compose (Declarative modern UI)
+Design System: Material Design 3 (M3) with custom sustainability theming (Emerald & Mint Green palette, adaptive containers, accessibility contrast)
+Architecture: MVVM (Model-View-ViewModel) with Unidirectional Data Flow (UDF)
+Local Persistence: Android Room Database (SQLite abstraction with Kotlin Symbol Processing - KSP)
+Concurrency & State: Kotlin Coroutines and StateFlow / SharedFlow (collectAsStateWithLifecycle)
+Camera & Hardware Scanning: Jetpack CameraX (camera-core, camera-camera2, camera-lifecycle, camera-view) for real-time receipt viewfinder and photo capture
+Image Loading: Coil Compose for async image rendering
+Networking: OkHttp3 for HTTP client communication
+Navigation: Jetpack Navigation with type-safe state transitions and animated crossfades
+Build System: Gradle (Kotlin DSL - .gradle.kts) with Gradle Version Catalogs (libs.versions.toml)
+Testing & Verification: Robolectric (JVM-based local unit & CUJ testing) and Roborazzi (Automated screenshot regression testing)
+🧠 2. AI & Machine Learning Layer
+Model: Google Gemini 1.5 Flash (Multimodal Vision & Language)
+SDK: @google/genai and Gemini REST Endpoints
+Key AI Capabilities:
+Receipt OCR & Extraction: Parses grocery receipt items, extracts item names, infers categories, and calculates remaining shelf-life days.
+Zero-Waste Recipe Synthesis: Formulates creative rescue recipes by prioritizing ingredients nearing expiration to prevent food waste.
+🖥️ 3. Backend & Cloud Infrastructure
+Runtime & Language: Node.js with TypeScript
+Web Framework: Express.js
+Database: PostgreSQL with connection pooling (pg)
+Authentication: JSON Web Tokens (JWT) with bcryptjs password hashing
+Data Validation: Zod for runtime schema validation
+File Upload Handling: Multer (Memory storage for image processing)
+Job Scheduler: node-cron for scheduled 08:00 AM daily expiry alert notifications
+Containerization: Docker (Multi-stage build for Cloud Run, Render, or Railway)
